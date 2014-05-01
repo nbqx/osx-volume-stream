@@ -1,0 +1,23 @@
+{
+  "name": "osx-volume-stream",
+  "description": "osx volume settings to readable stream",
+  "version": "0.0.1",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/osx-volume-stream.git"
+  },
+  "homepage": "https://github.com/nbqx/osx-volume-stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "csv2": "0.0.4",
+    "through2": "^0.4.1"
+  },
+  "devDependencies": {
+    "tap": "^0.4.8"
+  }
+}
